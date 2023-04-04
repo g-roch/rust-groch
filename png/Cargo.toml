@@ -1,8 +1,13 @@
 [package]
-name = "github"
+name = "groch-png"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bytesize = "1.2.0"
+crc = "3.0.1"
+env_logger = "0.10.0"
+log = "0.4.17"
+log_err = "1.1.1"
